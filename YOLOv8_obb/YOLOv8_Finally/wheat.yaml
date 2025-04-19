@@ -1,0 +1,9 @@
+train: /root/0116_yolov8/my_data_1/train.txt #注意路径问题
+val:  /root/0116_yolov8/my_data_1/val.txt #注意路径问题
+test:  /root/0116_yolov8/my_data_1/test.txt #注意路径问题
+
+nc: 4 # 填写类别数
+
+names: ['CYLJ', 'KHSLJ', 'QTLJ', 'YHLJ']  # 要和voc_label.py中的类别数目顺序一模一样
+
+# train,val,test的路径根据自己情况而定

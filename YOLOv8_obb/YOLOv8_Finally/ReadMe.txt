@@ -1,0 +1,2 @@
+数据集放在images和labels中，然后运行split.py
+就能得到datasets文件，然后就是修改yaml文件，运行就可以了
